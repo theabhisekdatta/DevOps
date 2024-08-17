@@ -1,0 +1,18 @@
+What is API?
+
+Application Programming Interface.
+APIs are mechanisms that enable two software components to communicate with each other using a set of definitions and protocols. For example, the weather bureau's software system contains daily weather data. The weather app on your phone “talks” to this system via APIs and shows you daily weather updates on your phone.
+
+Now a days APIs are mainly web based API.
+
+
+Advantages of API:
+
+1. Remotely access song, control volumns and Computionally power. (API removes the limitations of our local device, we can gain access to seemingly infinite amounts of power. like the google translate, it using the camera of our ph and translate the word from one language to another, the processing is happening eleswhere.)
+
+2. Security and API keys (When Zomato trys to connect Google maps, zomato will first connect with Google Map API it will send request to the API and if the request is valid then it will revert back with the results to zomato as a end results.)
+
+3. Monitor and tracking can be done
+
+4. Don't have to create it from scratch. ( the weather bureau's software system contains daily weather data. The weather app on your phone “talks” to this system via APIs and shows you daily weather updates on your phone.)
+
