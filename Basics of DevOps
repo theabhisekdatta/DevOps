@@ -1,0 +1,83 @@
+1. What is DevOps?
+
+People over Process over Tools
+Continuous delivery 
+lean management (shrink management)
+Infrastructure as code (Cloud or Server)
+
+It's a cultural practice in an organisation by development team and operations team to use each other's tool, to smooth out the process of software delivery.
+	
+Typically there are 4 teams:
+
+Code team : Responable for pushing out new features in the product. 
+
+Test team : Test the things are working (Unit testing, intregration testing).
+
+Deploy team : beside deployment, there are many things they are handling like OS updates, kernal updates, security, load balancing, etc.
+
+Operation team
+
+This four teams act as a singular team and act as DevOps.
+
+What Need to be learn in DevOps?
+1. Core Value 2. Core Ideas 3. Methods behind the DevOps then proceed to Practices and Tools.
+
+Methodology:
+
+DevOps > Agile > Waterfall
+
+Core Foundation of DevOps CAMS
+C --> Culture (Talk to each other with developer)
+A --> Automation (do we need automation)
+M --> Measurement (measure to improve)
+S --> Sharing (Share the GOAL)
+
+
+Implementing DevOps:
+
+There are 3 ways:
+
+Flow Thinking (Not Recommendated): where Dev team will tell Ops teams to ship the application in some date (No commucation after that).
+
+Amplify Feedback (Recommendated): Where Ops teams come and tell developer that right now we cannot ship the app due to some update going on and it was scheduled. 
+
+Experiment and Learn: Introduce new tools
+
+
+Terms:
+
+1. Provisioning : Server is ready with OS, software and networking
+
+2. Deployement : Adding or upgrading software on server. (move from local to server).
+
+3. Orchestration : Coordinated operations on multiple systems. (managing servers) Orchestation tool kubernetics, coordinating contaners.
+
+4. Configuration management : managing server configuration via files such as ram, space, dependency softwares
+
+5. Impertive : commands to produce desired state. (I will write a command and all the AWS, Azure instance will come up.)
+
+6. Declarative : desired state is defined and tools will achieve it. (hey I need this infrastructure and how you achive it I dont know)
+
+7. Idempotent : repeat execution and same result.
+
+8. Blue Green Deployment : Identical deployment, used as switch
+
+9. Continuous Ingration : Build and unit test at every checkin
+
+10. Continuous Delivery : deploy on production live env at every checkin
+
+11. Continuosu deployment : After unit testing deploy changes to production in samll batches
+
+
+
+
+
+
+
+
+
+
+
+
+
+
