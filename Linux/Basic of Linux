@@ -1,0 +1,71 @@
+Two pre requisite
+1. VirtualBox 
+2. Download ISO of CentOS
+
+Theory:
+
+Basic of Linux:
+
+1. Open Source OS, source code is available.
+2. Linux provide security.
+3. Linux system --> Package (Deb, RPM, YUM) --> Repository
+4. What is the difference between RPM and YUM?
+
+RPM (Redhat Package Manager ) VS YUM (Yellow Dog Updater)
+
+i. RPM install single package at a time whereas YUM install multiple package at a time. 
+ii. RPM cannot resolve the package dependencies whereas YUM can.
+iii. Roll back cannot be done in RPM whereas YUM can rollback.
+
+
+Aechitecture of Linux:
+
+Hardware (Wants to communicate with OS)
+Kernel (It helps to interact with OS and Hardware)
+
+Hardware <----> Kernel <----> Shell (OS) <----> Application
+
+-- So the virtual box is a Hypervisor, which helps
+where we could run OS, we can interact with the hardware like RAM allocation, stroage allocation.
+
+Linux Commands:
+1. whoami --> who is the user?
+2. ls --> What is there in the current directory
+3. cd --> change directory to another directory
+4. cd` --> take us to home directory.
+5. pwd --> will show the corrent directory
+6. ls -l --> will show the permission of the diffrent fill present in the directory.
+7. mkdir --> make directory ( folder )
+8. touch --> create files
+9. rm --> remove or deleted a file
+10. chmod --> change the permission of the file for User, Group and Other. The permissions are Read (4), Write (2) and Execute (1)
+
+--- Task 1:
+Question : Go to a directory of desktop & there I need to make a directory named as dev and inside that directory create a text file named devops.txt --> chmod permission of the text file to 777.
+
+Solution : First create the a directory in the desktop and create a file, now we have to deal with the permission of the file. 
+
+A file has Read, Write and Execute
+Read permission stands for --> 4
+Write permission stands for --> 2
+Execute permission stands for --> 1
+
+Total 4 + 2 + 1---> 7
+so if there is a file and I want to give 777 permission, then it will be
+User     Group      Other
+ 7         7	      7 
+
+You can see User, Group and Other when we do ls -l for a file. eg -rw-rw-r-- 1 abhisek abhisek 0 Sep  8 19:28 devops.txt
+
+** Sum of Read, Write and Execute in Linux is 7
+The command will be chmod 777 devops.txt
+
+
+
+
+
+
+
+
+
+
